@@ -1,9 +1,11 @@
 from menu import MENU, resources
+from helpers import prompt_user, print_report, check_resources, 
 
+def main():
 
-# TODO Prompt user - every time an action is completed.
-
-# TODO Check user input.
+    # Prompt user - every time an action is completed.
+    user_choice = prompt_user()
+    # TODO Check user input.
 
 # TODO If user enters 'off' to prompt - code will end execution.
 
